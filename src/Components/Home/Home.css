@@ -1,0 +1,262 @@
+.Box {
+
+  
+ 
+  
+}
+body{
+  /* background-color: black; */
+  margin: auto auto ;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  width: 90rem;
+  height: 50.25rem;
+
+  /* @media screen and (max-width: 768px) {
+    flex-direction: column;
+  } */
+  /* @media screen and (max-width: 375px) {
+    flex-direction: column;
+  } */
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  width: "700px";
+
+  /* @media (max-width: 768px) {
+    order: 2;
+  } */
+}
+
+.icon {
+  font-size: 24px;
+  width: 107px;
+  height: 83px;
+  margin-top: 33px;
+  margin-left: 100px;
+}
+
+.heading {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-top: 111px;
+  margin-left: 100px;
+  text-align: left;
+}
+
+.right-column {
+  flex: 1;
+  text-align: right;
+  width: 752px;
+  height: 839px;
+  flex-shrink: 0;
+  position: relative;
+
+  /* @media (max-width: 768px) {
+    order: 1;
+    margin-top: 20px;
+  } */
+}
+
+.Pizza{
+ 
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+/* @media (max-width: 375px) {
+  
+  .right-column {
+    order: 1;
+    width: 375px;
+    height: 426px;
+  }
+  .img {
+    background-image: url("");
+    width: 375px;
+    height: 426px;
+    flex-shrink: 0;
+  }
+} */
+
+.heading1 {
+  width: 21.5625rem;
+  color: var(--primary, #0E2368);
+  font-family: Source Sans Pro;
+  font-size: 3.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.3125rem; 
+}
+
+
+.best {
+  color: #e23744;
+  /* font-family: Source Sans Pro; */
+  font-size: 3.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 69px;
+  font-weight: bold;
+}
+.para {
+  width: 345px;
+  margin-top: 26px;
+}
+
+.para p {
+  color: var(--body, #444957);
+font-family: Open Sans;
+font-size: 1.02781rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.713rem; /* 166.667% */
+}
+
+.button {
+  margin-top: 41px;
+  width: 190px;
+  height: 63px;
+  border: none;
+  padding: 14px 34px 14px 34px;
+  flex-shrink: 0;
+  border-radius: 34px;
+  background: #e23744;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.18px;
+}
+
+@media screen and (max-width: 480px)  {
+  .Box {
+
+    height: 50.5rem;
+    
+   
+   
+    
+  }
+  /* .Pizza{
+ 
+    width: 735px;
+    height: 804px;
+    flex-shrink: 0;
+  } */
+  .heading1 {
+    width: 15rem;
+    height: 8.125rem;
+    flex-shrink: 0;
+    color: var(--primary, #0e2368);
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 121.053% */
+    margin: auto auto;
+    margin-top: 4.71rem;
+  }
+  .best {
+    color: #e23744;
+    /* font-family: Source Sans Pro; */
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; 
+    
+  }
+
+
+  .heading {
+    width: 23.63831rem;
+    height: 25.85738rem;
+    margin-top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    
+  }
+
+
+  .flex-row{
+    width: 23.63831rem;
+    
+    flex-direction: column-reverse;
+  }
+  .heading {
+    text-align: center;
+  }
+  .right-column {
+    flex: 1;
+    text-align: right;
+    width: 23.63831rem;
+    height: 25.85738rem;
+    
+    
+    position: relative;
+  
+    /* @media (max-width: 768px) {
+      order: 1;
+      margin-top: 20px;
+    } */
+  }
+  .icon{
+    display: none;
+  }
+  .left-column {
+    width: 23.63831rem;
+    height: 25.85738rem;
+    
+  
+    /* @media (max-width: 768px) {
+      order: 2;
+    } */
+  }
+  .para {
+    width: 15.5625rem;
+    margin: auto auto;
+  }
+  
+  .para p {
+    width: 15.5625rem;
+    color: var(--body, #444957);
+    text-align: center;
+    margin-top: 1.31rem;
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.125rem; /* 163.636% */
+  }
+  .button {
+   
+    width: 7.5rem;
+    height: 2.5rem;
+    padding: 0.75rem 0.875rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.375rem;
+    flex-shrink: 0;
+    margin: auto auto;
+    font-size: 0.76663rem;
+    border: none;
+    margin-top: 1.75rem;
+
+  }
+  
+
+  
+}
+
+.about{
+  width: 1440px;
+height: 653px;
+}
