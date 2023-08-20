@@ -53,6 +53,7 @@ line-height: 1.43944rem;
 }
 #Food{
     margin-left: -50px;
+    font-family: Roboto;
 }
 .social-icons {
     display: flex;
@@ -87,8 +88,9 @@ flex-shrink: 0;
         width: 4.6875rem;
 height: 3.625rem;
 flex-shrink: 0;
-margin-left: 9.31rem;
+margin-left: 0rem;
 margin-top: 3.25rem;
+margin-right: 0rem;
     }
     h3{
         width: 7.4375rem;
@@ -108,7 +110,7 @@ margin-left: 2.6rem;
  .p{
     width: 17.1875rem;
     color: #646874;
-font-family: Source Sans Pro;
+
 font-size: 0.54763rem;
 font-style: normal;
 font-weight: 400;

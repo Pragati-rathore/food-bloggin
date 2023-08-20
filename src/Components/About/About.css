@@ -8,6 +8,7 @@ flex-shrink: 0;
 
 /* Apply styles to the container */
 .container {
+  background-color:  #FFF;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -99,6 +100,7 @@ flex-shrink: 0;
   background: #e23744;
   border: none;
   color: #fff;
+  
   /* font-family: Source Sans Pro; */
 
   font-style: normal;
@@ -123,10 +125,11 @@ margin-top: 0rem;
   }
 
   .right-box {
-    display: flex;
+    
    
     width: 23.4375rem;
-height: 32.25rem;
+
+padding: 0rem;
 
 
   }
@@ -160,7 +163,7 @@ font-size: 0.6875rem;
 font-style: normal;
 font-weight: 400;
 line-height: 1.3125rem; /* 190.909% */
-margin-left:3.13em; ;
+margin-left:3rem ;
 }
 .box-2{
   display: flex;
@@ -170,7 +173,7 @@ margin-left:3.13em; ;
   justify-content: center;
   align-items: center;
   gap: 0.8125rem;
-  flex-shrink: 0;
+ 
   border-radius: 1.6875rem;
 background: #E23744;
 color: #FFF;
@@ -179,7 +182,7 @@ font-size: 0.6875rem;
 font-style: normal;
 font-weight: 400;
 margin-left: 8.69rem;
-margin-top: 1rem;
+margin-bottom: 10rem;
 
 }
 }

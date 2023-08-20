@@ -4,6 +4,7 @@ import AboutImg from "../../asstes/about-img.png";
 function About() {
   return (
     <div >
+      <div className="colour">
       <div className="container">
         <div className="left-box">
           <img className="" src={AboutImg} alt="AboutImg" />
@@ -23,6 +24,8 @@ function About() {
           <button className="box-2">Read More</button>
         </div>
       </div>
+      </div>
+     
     </div>
   );
 }

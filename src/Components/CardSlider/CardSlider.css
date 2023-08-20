@@ -13,13 +13,14 @@
   height: 5.25rem;
   color: var(--primary, #0e2368);
   margin-top: 9.88rem;
-  margin-left: 6.75rem;
+  margin-left: 5.50rem;
   margin-bottom: 2.53rem;
   font-size: 3.5rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 2.625rem; /* 75% */
   letter-spacing: 0.14rem;
+  
 }
 .slider {
   display: flex;
@@ -69,12 +70,13 @@ gap: 0.875rem;
 flex-shrink: 0;
 }
 .card-heading h2{
-    color:#0E2368;
-/* font-family: Poppins; */
+    
+color: var(--primary, #0E2368);
+font-family: Poppins;
 font-size: 1.3125rem;
 font-style: normal;
 font-weight: 700;
-line-height: 1.6875rem; 
+line-height: 1.6875rem;
 margin: 0rem;
 
 }
@@ -82,11 +84,14 @@ margin: 0rem;
     width: 18.4375rem;
     color: var(--body, #444957);
 /* font-family: Open Sans; */
+color: var(--body, #444957);
+font-family: Open Sans;
 font-size: 0.9375rem;
 font-style: normal;
 font-weight: 400;
-line-height: 1.6875rem; 
+line-height: 1.6875rem; /* 180% */
 letter-spacing: -0.01875rem;
+
 margin: 0rem;
 text-align: left;
 }
@@ -153,7 +158,7 @@ border: 1px solid  #424961 ;
 .cardimg{
     width: 100%;
 }
-@media (max-width: 480px) {
+@media (max-width: 376px) {
   .slider {
     flex-direction: column;
     width: 23.4375rem;
@@ -174,19 +179,19 @@ margin-bottom: 3.52rem;
 
   }
   .Silder-heading{
-    width: 13.5rem;
+    
 height: 3.375rem;
 
-flex-shrink: 0;
+width: 16.9375rem;
     color: var(--primary, #0E2368);
 font-family: Poppins;
 font-size: 1.75rem;
 font-style: normal;
 font-weight: 600;
-line-height: 3.375rem; /* 192.857% */
-letter-spacing: 0.07rem;
+
 margin-top:8.25;
-margin-left: 5rem;
+margin-left: 3rem;
+
   }
   .card-box-1{
     width: 12.75rem;
@@ -250,5 +255,16 @@ margin-left: 4.75rem;
     margin: 0rem;
     margin-bottom: 3.25rem;
     
+}
+.page-indicator{
+  font-size: 15px;
+}
+.pagination button{
+  width: 1rem;
+height: 1.2rem;
+flex-shrink: 0;
+justify-content: center;
+align-items: center;
+padding: 0rem;
 }
 }
