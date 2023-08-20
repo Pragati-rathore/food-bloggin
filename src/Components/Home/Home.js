@@ -24,14 +24,13 @@ function Home() {
                 </p>
               </div>
               <div>
-              <button className="button">Explore Now!</button>
-            
+                <button className="button">Explore Now!</button>
               </div>
             </div>
           </div>
           <div className="right-column">
             <div className="img">
-              <img src={Pizza} alt="img1" className="Pizza"/>
+              <img src={Pizza} alt="img1" className="Pizza" />
               <svg
                 className="wecanit"
                 xmlns="http://www.w3.org/2000/svg"
@@ -52,9 +51,7 @@ function Home() {
           </div>
         </div>
       </div>
-      
     </div>
-    
   );
 }
 
